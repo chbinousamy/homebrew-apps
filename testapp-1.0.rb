@@ -7,6 +7,8 @@ class Testapp < Formula
 
   def install
     bin.install "testapp"
+    prefix.install "README.md"
+    prefix.install "LICENSE"
   end
 
   test do
